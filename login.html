@@ -14,17 +14,22 @@
             <div class="Username"></div>
               <input type="text" placeholder="Username" name="username">
             </div>
+
             <div class = "Password">
-              <input type="password" placeholder="Password" name="psw">
+              <input type="password" id= "paswd" placeholder="Password" name="psw">
             </div>
-            <div>
-            <input id= "toggler" type="checkbox" onclick="Toggle()"> 
+
+            <input id= "toggler" type="checkbox" onclick="Show()"> 
             <label for="toggler" class="indented-checkbox-text" >Show Password</label>
-            </div>
+            <script type="text/javascript" src="scripts/login.js"></script>
             <button type="submit">Login</button>
-              <a href="create.html">Create Account</a>
           </form>
-      </div>
+          
+          <form action="create.html">
+            <button class= "submission" type="submit" value="submit">Create Account</button>
+          </form>
+        
+        </div>
       </div>
     </div>
   </body>
