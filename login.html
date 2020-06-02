@@ -10,12 +10,16 @@
       <div class="login">
         <h1>Sign In</h1>
         <div class="login-container">
-          <form action="/action_page.php">
+          <form action="homepage.html"><!---Will contain php at somepoint-->
             <div class="Username"></div>
               <input type="text" placeholder="Username" name="username">
             </div>
             <div class = "Password">
-              <input type="text" placeholder="Password" name="psw">
+              <input type="password" placeholder="Password" name="psw">
+            </div>
+            <div>
+            <input id= "toggler" type="checkbox" onclick="Toggle()"> 
+            <label for="toggler" class="indented-checkbox-text" >Show Password</label>
             </div>
             <button type="submit">Login</button>
               <a href="create.html">Create Account</a>
