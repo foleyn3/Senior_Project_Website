@@ -10,11 +10,11 @@ body{
   margin-top: 100px;
   background-color: white;
   width: 30%;
-  
   padding: 10px;
   top: 50%;
-  left: 50%; 
+  left:  50%; 
 }
+
 
 h1{
   margin: auto;
@@ -41,16 +41,25 @@ button{
   cursor: pointer;
   width: 100%;
 }
-.Username{
+
+.Name{
   color: white;
-  padding: 14px 14px;
+  padding: 14px 0px;
   width: 100%;
 }
+
+.Username{
+  color: white;
+  padding: 14px 0px;
+  width: 100%;
+}
+
 .Password{
   color: white;
   padding: 14px 0px;
   width: 100%;
 }
+
 a{
   text-align: right;
 }
@@ -63,6 +72,7 @@ input{
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
+
 #toggler{
   margin: 2px 0;
   width: 5%
@@ -70,7 +80,6 @@ input{
 
 b{
   color:black;
-  
 }
 
 label.indented-checkbox-text
