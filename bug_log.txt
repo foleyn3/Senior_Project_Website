@@ -1,0 +1,1 @@
+- CSS bug cause larger gap than normal between username and email
