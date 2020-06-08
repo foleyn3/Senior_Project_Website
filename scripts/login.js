@@ -7,3 +7,9 @@ function Show() {
     censored.type = "password";
   }
 }
+function Teacher(){
+  window.open("homepage.html", "_self");
+}
+function Student(){
+  window.open("homepage.html", "_self");
+}
