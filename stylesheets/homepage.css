@@ -1,0 +1,14 @@
+.top_bar{
+  background-color: grey;
+  overflow: hidden;
+}
+
+.top_bar a{
+  float:right;
+  color:black;
+  padding: 14px 16px;
+}
+.container{
+  padding: 10px 16px;
+  text-align: center;
+}
