@@ -1,6 +1,9 @@
 .top_bar{
-  background-color: grey;
+  background-color: #B0DDE4;
   overflow: hidden;
+  border-style: outset;
+  z-index: 1;
+  position: relative;
 }
 
 .top_bar a{
@@ -23,3 +26,12 @@
   border-width: 5px;
   border-style: 2;
 }
+.sidebar{
+  float: left;
+  width: 15%;
+  height: 100%;
+  border-style: solid;
+  border-color: green;
+  z-index:-1;
+}
+
