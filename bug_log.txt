@@ -1,2 +1,2 @@
 - CSS bug cause larger gap than normal between username and email
-- CSS issues trying to ass backround image for teaher and student button
+- CSS issues trying to show teacher and student image buttons *Fixed*
