@@ -132,3 +132,33 @@ label.indented-checkbox-text
 :hover>.submission{
   background-color:#B0DDE4;
 }
+
+.container{
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+
+label.radio
+{
+  margin-left: 22px;
+  display: block;
+  position: absolute;
+  margin-top: -1.5em;  
+  line-height: 1.4em; 
+}
+
+textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+select{
+  width: 100%;
+  padding: 12px 20px;
+}

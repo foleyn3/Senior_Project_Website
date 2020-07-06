@@ -18,7 +18,7 @@
         <a href="index.html"><i class="fa fa-arrow-circle-left" style="font-size:24px"></i></a>
         <h1>Create Account</h1></div>
         <div class="login-container">
-          <form name= "creates" action="account_type.html" onsubmit="return ValidateCreate()">
+          <form name= "creates" action="account_type.html" method="post">
             <div class="Name">
               <input type="text" placeholder="First Name" name="First" required>
               <input type="text" placeholder="Last Name" name="Last" required>
@@ -34,7 +34,19 @@
               <input type="password" placeholder="Password" id="psw" name="psw" required>
               <input type="password" placeholder="Re-Enter Password" id="psw2" name="psw2" required>
             </div>
-            <div><button type="submit" class="submission">Create</button></div>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm">
+                  <input type="radio" id="Student" name="type" value="student">
+                  <label for="Student" class="radio" >Student</label><br>
+                </div>
+                <div class="col-sm">
+                  <input type="radio"  id="Teacher" name="type" value="teacher">
+                  <label for="teacher" class="radio">Teacher</label><br>
+                </div>
+              </div>
+            </div>
+          <div><button type="submit" class="submission">Create</button></div>
           </form>
         </div>
       </div>
