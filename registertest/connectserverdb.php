@@ -13,5 +13,18 @@ $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 if($link === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
-echo "Connected";
+// echo "Connected";
+
+$query = "select * from courses";
+$result = mysqli_query($link, $query);
+$data = array();
+
+while ($row = mysqli_fetch_assoc($result)) {
+    $data[] = $row;
+}
+
+
+echo json_encode($data);
+
+$link->close();
 ?>
